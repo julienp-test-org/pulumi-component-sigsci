@@ -1,1 +1,8 @@
 runtime: nodejs
+packages:
+  sigsci:
+    source: terraform-provider
+    version: 0.10.0
+    parameters:
+      - signalsciences/sigsci
+      - 3.7.0
